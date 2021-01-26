@@ -1,10 +1,10 @@
 module.exports = {
-  SiteTitle: 'Lindsey Rook',
+  SiteTitle: 'Counter Current',
   Sitelogo: '#',
-  SiteLogoText: 'Lindsey Rook',
-  SiteAuthor: 'Lindsey Rook',
-  SiteDescription: 'Integrative Nutrition Health Coach',
-  defaultDescription: 'Integrative Nutrition Health Coach!', 
+  SiteLogoText: 'Counter Current',
+  SiteAuthor: 'Counter Current',
+  SiteDescription: 'Inclusive Wellness Collective',
+  defaultDescription: 'Inclusive Wellness Collective', 
   githubApiQuery: `query ($number_of_repos: Int!) {
     viewer {
       name

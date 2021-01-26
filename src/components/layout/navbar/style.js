@@ -24,9 +24,8 @@ export const NavbarElement = styled.div`
 `
 
 export const NavbarList = styled.ul`
-  padding-left: 0;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 25%);
   list-style: none;
   > li a {
     font-size: 1.2rem;
@@ -37,7 +36,6 @@ export const NavbarList = styled.ul`
     vertical-align: middle;
     > svg {
       width: 18px;
-      margin-right: 5px;
     }
     span, 
     svg {

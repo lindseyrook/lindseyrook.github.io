@@ -19,9 +19,8 @@ const Navbar = ({ siteTitle }) => (
           <div className="main-navigation">
             <NavbarList>
               <li><Link to="/" className="lined-link" activeClassName="active"> <User /> <span> About </span> </Link></li> 
-              <li><Link to="/repositories" className="lined-link" activeClassName="active"> <Smile /> <span> Something </span> </Link></li>  
-              <li><Link to="/works" className="lined-link" activeClassName="active"> <Calendar /> <span> Appointments </span> </Link></li>  
               <li><Link to="/blog" className="lined-link" activeClassName="active"> <Feather /> <span> Blog </span> </Link></li>
+              <li><Link to="/appointments" className="lined-link" activeClassName="active"> <Calendar /> <span> Appointments </span> </Link></li>  
             </NavbarList>
           </div>
       </NavbarElement>
