@@ -3,8 +3,8 @@ module.exports = {
   Sitelogo: '#',
   SiteLogoText: 'Counter Current',
   SiteAuthor: 'Counter Current',
-  SiteDescription: 'Inclusive Wellness Collective',
-  defaultDescription: 'Inclusive Wellness Collective', 
+  SiteDescription: 'An innovative & enlivening whole-person approach to help you level up your well-being',
+  defaultDescription: 'An innovative & enlivening whole-person approach to help you level up your well-being', 
   githubApiQuery: `query ($number_of_repos: Int!) {
     viewer {
       name
@@ -39,7 +39,7 @@ module.exports = {
     }
   }`,
   SiteSocialLinks: {
-    linkedin: 'https://www.linkedin.com/in/lindsey-r-7125a3105/',
+    instagram: 'https://www.instagram.com/counter.current',
   },
   SiteAddress: {
     city: 'Casablanca',
@@ -48,7 +48,7 @@ module.exports = {
     zipCode: 'ZipCode',
   },
   SiteContact: {
-    email: 'abdali.dahir@gmail.com',
+    email: 'countercurrentwellness@gmail.com',
     phone: 'phone number',
   },
   SiteCopyright: '2020',

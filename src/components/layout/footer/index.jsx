@@ -21,7 +21,7 @@ const Footer = () => {
 						</FooterSocialMedia>
 						<div>
 							<p className="text-primary quote"> Ready to take the next step and work together? </p>
-							<ButtonDefault href={`mailto:${data.SiteContact.email}`}> Contact me </ButtonDefault>
+							<ButtonDefault href={`mailto:${data.SiteContact.email}`} target="_blank"> Contact me </ButtonDefault>
 						</div>
 					</FooterBody>
 					<div className="box">
