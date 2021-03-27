@@ -14,9 +14,13 @@ const WorkIndex = ({ data }) => {
         <Intro>
           <ContainerLayout>
 
+            <Title>Add square link for booking here! This way Lindsey can customize everything she needs</Title>
+
             <SubTitle className="text-dark">
               Schedule an appointment!
             </SubTitle>
+
+            
 
           </ContainerLayout>
         </Intro>
