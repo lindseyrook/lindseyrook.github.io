@@ -22,12 +22,11 @@ const About = () => {
           <AboutSection>
             <div>
               <Avatar fluid={data.placeholderImage.childImageSharp.fluid} alt="user photo" />
-              <SubTitle>Integrative Nutrition Health Coach</SubTitle>
+              {/* <SubTitle>Inclusive Wellness Collective</SubTitle> */}
             </div> 
             <div>
-              <Title> Hello, I’m Lindsey Rook </Title>
-              {/* <Text> I'm a digital Front End Developer hailing from <b className="text-primary lined-link">North Africa</b> living in Casablanca. </Text> */}
-              <Text> I love the world and I'm a really cool person</Text>
+              <Title> Hello, welcome to Counter Current </Title>
+              <Text>An innovative & enlivening whole-person approach to help you level up your well-being</Text>
             </div>
           </AboutSection>
         </ContainerLayout>
